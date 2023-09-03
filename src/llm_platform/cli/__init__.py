@@ -40,6 +40,7 @@ def start(option1):
     uvicorn.run(server.app)
 
     print('start server')
+    print('Will start server')
 
 if __name__ == '__main__':
    cli()

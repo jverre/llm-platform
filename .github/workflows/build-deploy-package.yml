@@ -1,4 +1,4 @@
-name: BuildPackage
+name: BuildDeployPackage
 on:
   workflow_dispatch:
   workflow_call:

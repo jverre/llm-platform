@@ -16,7 +16,10 @@ def cli(verbose):
     "--option1"
 )
 def start(option1):
-    print('Will start server')
+    # Start server
+    import llm_platform.server as server
+    import uvicorn
+    uvicorn.run(server.app)
 
 if __name__ == '__main__':
    cli()

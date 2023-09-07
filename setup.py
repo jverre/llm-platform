@@ -1,6 +1,10 @@
 from setuptools import setup, find_packages
 
 required_packages = [
+    'click',
+    'fastapi',
+    'openai',
+    'uvicorn',
 ]
 
 setup(
